@@ -16,10 +16,10 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/movies/60a758b350f20c350cbf8bd2
+DELETE http://localhost:3000/movies/60a78b01abf2e6116815a279
 
 ###
-PATCH  http://localhost:3000/movies/60a75932cdfa1442acac1817
+PATCH  http://localhost:3000/movies/60a78b01abf2e6116815a279
 Content-Type: application/json
 
 {

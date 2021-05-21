@@ -2,7 +2,7 @@
   "name": "express-movie-crud-api",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon app.js"
   },
@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.12.10"
+    "mongoose": "^5.12.10",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "dotenv": "^9.0.2",
