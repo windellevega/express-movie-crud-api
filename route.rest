@@ -1,0 +1,31 @@
+GET http://localhost:3000/movies
+
+###
+GET http://localhost:3000/movies/60a75932cdfa1442acac1817
+
+###
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+    "title": "Jumanji: Welcome to the Jungle",
+    "plot_summary": "Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game.",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "year": 2017,
+    "picture_url": "https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1012_.jpg"
+}
+
+###
+DELETE http://localhost:3000/movies/60a758b350f20c350cbf8bd2
+
+###
+PATCH  http://localhost:3000/movies/60a75932cdfa1442acac1817
+Content-Type: application/json
+
+{
+    "title": "Jumanji: Welcome to the Jungle",
+    "plot_summary": "Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game.",
+    "genres": ["Action", "Adventure", "Comedy"],
+    "year": 2017,
+    "picture_url": "https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1012_.jpg"
+}
